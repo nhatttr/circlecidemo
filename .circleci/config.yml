@@ -12,7 +12,7 @@ install-aws-cli:
                         - checkout
                         - aws-cli/setup:
                             profile-name: example
-                        - run: echo "Chạy đường coi noi nạ"
+                        - run: echo "Chạy đường ống coi cái nạ"
             workflows:
                 aws-cli:
                     jobs:
